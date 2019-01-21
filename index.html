@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Conference Sign-up</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:300" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form id="survey-form" action="" method="get">
+    <h1 id="title">Sign-up Here</h1>
+    <p id="description">
+      lorem ipsum text needs to change and be real text come back to it later.
+    </p>
+    <div>
+      <label for="name" id="name-label">Name</label>
+      <input id="name" name="name" type="text" required placeholder="Name">
+    </div>
+    <div>
+      <label for="email" id="email-label">Email</label>
+      <input id="email" name="email" type="email" required placeholder="Email">
+    </div>
+    <div>
+      <label for="number" id="number-label">How many will be attending?</label>
+      <input id="number" name="number" type="number" min="1" max="100" required placeholder="Number of guests">
+    </div>
+    <label for="dropdown">What day will you attend?:</label>
+
+    <select id="dropdown">
+      <option value="">Please choose a day</option>
+      <option value="thursday">Thursday</option>
+      <option value="friday">Friday</option>
+      <option value="saturday">Saturday</option>
+      <option value="sunday">Sunday</option>
+    </select>
+    <fieldset>
+      <legend>Morning Program</legend>
+      <div class="radio">
+        <div>
+          <input type="radio" name="morning" id="html" checked>
+          <label for="html" id="html-label">HTML</label>
+        </div>
+        <div>
+          <input type="radio" name="morning" id="css">
+          <label for="css" id="css-label">CSS</label>
+        </div>
+        <div>
+          <input type="radio" name="morning" id="sass">
+          <label for="sass" id="sass-label">Sass</label>
+        </div>
+        <div>
+          <input type="radio" name="morning" id="svg">
+          <label for="svg" id="svg-label">SVG</label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Afternoon Program</legend>
+      <div class="radio">
+        <div>
+          <input type="radio" name="afternoon" id="javascript" checked>
+          <label for="javascript" id="javascript-label">Javascript</label>
+        </div>
+        <div>
+          <input type="radio" name="afternoon" id="react">
+          <label for="react" id="react-label">React</label>
+        </div>
+        <div>
+          <input type="radio" name="afternoon" id="vue">
+          <label for="vue" id="vue-label">Vue</label>
+        </div>
+        <div>
+          <input type="radio" name="afternoon" id="node">
+          <label for="node" id="node-label">Node</label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>What are your interests?</legend>
+      <div class="checkbox">
+        <div>
+          <input type="checkbox" name="roles" id="front-end">
+          <label for="front-end" id="front-end-label">Front-End</label>
+        </div>
+        <div>
+          <input type="checkbox" name="roles" id="back-end">
+          <label for="back-end" id="back-end-label">Back-End</label>
+        </div>
+        <div>
+          <input type="checkbox" name="roles" id="full-stack">
+          <label for="full-stack" id="full-stack-label">Full-Stack</label>
+        </div>
+        <div>
+          <input type="checkbox" name="roles" id="dev-ops">
+          <label for="dev-ops" id="dev-ops-label">Dev Ops</label>
+        </div>
+        <div>
+          <input type="checkbox" name="roles" id="web-design">
+          <label for="web-design" id="web-design-label">Web design</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <div id="message-area">
+      <div>
+        <label for="message" id="message-label">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" maxlength="250" wrap="hard" placeholder="Drop us a line">
+          </textarea>
+      </div>
+    </div>
+    <div id="submit-btn">
+      <input type="submit" id="submit" value="Send">
+    </div>
+  </form>
+</body>
+
+</html>
