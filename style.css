@@ -6,11 +6,13 @@ body {
   font-size: 1.2rem;
   line-height: 2rem;
   letter-spacing: 0.1rem;
+  background-color: #f8f8f8;
 }
 
 h1 {
   text-transform: uppercase;
   text-align: center;
+  color: #384d48;
 }
 
 h1,
@@ -18,6 +20,68 @@ legend {
   font-family: "Montserrat", sans-serif;
 }
 
+form {
+  background-color: rgb(232, 240, 235);
+  padding: 0.75rem;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-bottom: 75px;
+}
+
 fieldset {
   border: none;
+}
+
+#dropdown {
+  height: 2rem;
+}
+
+#email,
+#name,
+#number {
+  height: 1.25rem;
+}
+
+#email {
+  margin-left: 4px;
+}
+
+#number {
+  width: 8rem;
+}
+
+input:focus {
+  background-color: #82f1ff;
+}
+
+#message-label {
+  display: flex;
+}
+
+textarea {
+  max-height: 200px;
+  width: 90%;
+  display: block;
+  margin: 0.75rem auto;
+}
+
+button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: #1be7ff;
+  color: #f8f8f8;
+  transition: all 0.5s ease;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+button:hover,
+button:focus {
+  background: #19d2e8;
 }
