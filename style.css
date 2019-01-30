@@ -6,7 +6,7 @@ body {
   font-size: 1.2rem;
   line-height: 2rem;
   letter-spacing: 0.1rem;
-  background-color: #f8f8f8;
+  background-color: #468189;
   color: #031926;
 }
 
@@ -23,10 +23,16 @@ legend {
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+form,
+textarea,
+button {
+  border-radius: 5px;
+}
+
 form {
   background-color: rgb(232, 240, 235);
   padding: 0.75rem;
-  border-radius: 5px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   margin-bottom: 75px;
   max-width: 400px;
@@ -81,7 +87,6 @@ textarea {
 button {
   border: 0;
   outline: none;
-  border-radius: 0;
   padding: 15px 0;
   font-size: 2rem;
   font-weight: 600;
@@ -97,4 +102,10 @@ button {
 button:hover,
 button:focus {
   background: #67979e;
+}
+
+@media screen and (max-width: 399px) {
+  body {
+    letter-spacing: 0.05rem;
+  }
 }
