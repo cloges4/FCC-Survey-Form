@@ -7,12 +7,15 @@ body {
   line-height: 2rem;
   letter-spacing: 0.1rem;
   background-color: #f8f8f8;
+  color: #031926;
 }
 
 h1 {
   text-transform: uppercase;
   text-align: center;
-  color: #384d48;
+  color: #f8f8f8;
+  background-color: #468189;
+  padding: 2rem;
 }
 
 h1,
@@ -26,10 +29,16 @@ form {
   border-radius: 5px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   margin-bottom: 75px;
+  max-width: 400px;
 }
 
 fieldset {
   border: none;
+  margin-top: 2rem;
+}
+
+.number {
+  margin: 2rem 0;
 }
 
 #dropdown {
@@ -51,7 +60,11 @@ fieldset {
 }
 
 input:focus {
-  background-color: #82f1ff;
+  background-color: #67979e;
+}
+
+#message-area {
+  margin: 2rem 0 1rem;
 }
 
 #message-label {
@@ -74,7 +87,7 @@ button {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background: #1be7ff;
+  background: #468189;
   color: #f8f8f8;
   transition: all 0.5s ease;
   display: block;
@@ -83,5 +96,5 @@ button {
 }
 button:hover,
 button:focus {
-  background: #19d2e8;
+  background: #67979e;
 }
