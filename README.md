@@ -1,34 +1,33 @@
-## Welcome to GitHub Pages
+# FCC-Survey-Form
 
-You can use the [editor on GitHub](https://github.com/cloges4/FCC-Survey-Form/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project is part of the FreeCodeCamp Responsive Web Design Certification. Project requirements can be found [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [With tests](https://codepen.io/cloges4/full/RzQQJr)
+- [Live](https://cloges4.github.io/FCC-Survey-Form/)
 
-### Markdown
+## Getting Started
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Just clone the repository and open `index.html` in in browser.
 
-```markdown
-Syntax highlighted code block
+### Prerequisites
 
-# Header 1
-## Header 2
-### Header 3
+None
 
-- Bulleted
-- List
+## Built With
 
-1. Numbered
-2. List
+- HTML
+- CSS
 
-**Bold** and _Italic_ and `Code` text
+## Authors
 
-[Link](url) and ![Image](src)
-```
+- **Charles Loges IV** - _Project work_ - [cloges4](https://github.com/cloges4)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## License
 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-### Support or Contact
+## Acknowledgments
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
